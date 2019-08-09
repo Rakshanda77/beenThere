@@ -1,0 +1,289 @@
+/* Events  */
+.main-pic{
+padding: 1rem;
+}
+.main-pic .head{
+  color: white;
+}
+.main-pic a{
+  text-decoration: none;
+}
+.main-pic .one{
+background-image: url("images/fam-event.png");
+background-size: cover;
+}
+.main-pic .two{
+  background-image: url("images/music-events.png");
+  background-size: cover;
+}
+.main-pic .three{
+  background-image: url("images/tech-events.png");
+  background-size: cover;
+
+
+}
+.eventheader img{
+  width: 100%;
+}
+h1{
+text-align: center;
+overflow: hidden;
+
+color: #F7931E;
+}
+.btn{
+  text-align: center;
+  display:inline-block;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #007bff;
+  color: white;
+}
+
+
+/* Events  */
+.family,
+ .music{
+  text-align: center;
+  padding: 1rem;
+
+ }
+
+
+
+
+/* Reviews  */
+.main .main-img
+{
+  text-align: center;
+} h5,h6{
+  text-align: center;
+}
+.content p
+{
+  margin-left: 5rem;
+  margin-right: 2rem;
+}
+h3{
+  margin-top: 2rem;
+}
+
+/* events-eplore */
+.main-area{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+.description{
+  text-align: center;
+}
+.btn a{
+  text-decoration: none;
+  color: white;
+}
+.whole{
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+img{
+  margin-top: .25rem;
+  margin-bottom: .25rem;
+}
+
+
+.content,
+.main-img{
+  padding-bottom: .5rem;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 650px){
+.team{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap:1rem;
+}
+.fea{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap:.5rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+
+/* Events  */
+.family,
+ .music{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2rem;
+  margin: 2rem;
+  text-align: center;
+}
+.main{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+.content p{
+  text-align: center;
+}
+
+/* Reviews  */
+
+@media only screen and (min-width: 650px){
+  .main{
+    display: grid;
+    grid-template-columns: .25fr .5fr;
+    justify-content: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+  padding: 2rem;
+  }
+  h1{
+    text-align: center;
+    color: #F7931E;
+  }
+  .content{
+    padding: 1rem;
+  }
+  .content p{
+    padding: -0rem;
+  }
+  .main .main-img{
+    text-align: center;
+  }
+  .main .content {
+  text-align: left;
+  }
+.main .content p{
+  margin: 0rem;
+  text-align: left;
+  width: auto;
+
+}
+h5,h6{
+ text-align: left;
+}
+.content p
+{
+
+ margin: 0;
+}
+}
+
+/* MORE Reviews  */
+
+
+.main-img{
+  padding-right: 1rem;
+}
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  font-size: 60px;
+  font-weight: 20px;
+}
+
+
+/*==================================================================================================*/
+.ev{
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+}
+
+
+/*====================================  NEW EVENTS PAGE CSS ====================================================*/
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  padding: 1rem;
+  width: 30%;
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 90%;
+    display: block;
+
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.containerr {
+  padding: 0 16px;
+}
+
+.containerr::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color:#3AB1E2;
+  text-align: center;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color:#3AB1E2;
+  color:white;
+  border-radius: 10px;
+  border: 2px solid #3AB1E2;
+  padding: 2px;
+
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.row{
+  padding-top: 20px;
+  margin-left: 10%;
+}
+h2{
+
+  text-align: center;
+  color:#33BBAE!important;
+}

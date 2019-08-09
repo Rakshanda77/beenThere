@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Port+Lligat+Slab&display=swap');
+
+h1,h2, h3, h4, h5, h6, button, li,.select{
+
+  font-family: 'Francois One', sans-serif;
+}
+#myDiv{
+  font-family: 'Francois One', sans-serif;
+
+}
+title{
+
+}
+p,#input,#select,#submit{
+  font-family: 'Port Lligat Slab', serif;
+}
+select, .mainfooter, .centered, label{
+    font-family: 'Francois One', sans-serif;
+}
+
+#myDiv{
+    text-align: center;
+  font-size: 4rem;
+  color:#F7931E!important;
+  width: 30%;
+}
+
+#select,#input{
+  height: 80%;
+  margin-top: .2rem;
+  
+}
+#submit{
+  color:white;
+  border-radius: 10px;
+  border: 2px solid #3AB1E2;
+  text-align: center;
+  color: white;
+  background-color: #007bff;
+background-color:#3AB1E2;
+
+margin: auto;
+padding: auto;
+
+}
+
+@media only screen and (min-width: 650px){
+  #myDiv{
+    display: grid;
+    text-align: center;
+    font-size: 2rem;
+    color:black;
+    width: 60%;
+    margin-left: 20rem;
+    margin-right: 20rem;
+  }
+
+}
+.data{
+  display: grid;
+  grid-template-columns: .2fr .2fr .2fr;
+  grid-gap:.5rem;
+  text-align: center;
+  justify-content: center;
+  font-size: 2rem;
+  padding: 2rem;
+}
+.weather{
+  text-align: center;
+}
+.weather-main ul li{
+  list-style-type: none;
+}
+.modebar{
+  display: none;
+}
+.plot-container {
+  max-width: 30%;
+  margin-left: 30rem;
+  margin-right: 30rem;
+
+}
+.main-svg{
+
+}

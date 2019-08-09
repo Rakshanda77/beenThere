@@ -1,0 +1,60 @@
+
+body{
+  margin: 0;
+  padding: 0;
+}
+.btn{
+   
+   background-color:#3AB1E2!important;
+ 
+   color:white;
+margin-bottom: 1rem;
+margin-left: 0px;
+}
+.btn btn-primary{
+  background-color:#3AB1E2!important;
+ 
+}
+h1{
+  color:#F7931E;
+}
+.btn:hover {
+  opacity:0.7;
+}
+h3{
+  text-align: center;
+}
+
+.ourteam{
+  color:#33BBAE;
+  padding-top: 40px;
+}
+.feel
+{
+  color:#33BBAE;
+}
+.ourcont{
+    border-radius: 5px;
+    background-color: black;
+    opacity: 0.8;
+    padding: 20px;
+    color:white;
+
+}
+
+.btn{
+   background-color: #0071BC;
+   color:white;
+
+}
+#bsub{
+  margin-left: 43%;
+
+}
+.btn:hover {
+  opacity:0.9;
+}
+.mainfooter1{
+  float:right;
+  background: #F7931E!important;
+}

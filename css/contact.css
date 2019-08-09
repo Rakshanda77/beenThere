@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Port+Lligat+Slab&display=swap');
+
+h1,h2, h3, h4, h5, h6, button, li{
+
+  font-family: 'Francois One', sans-serif;
+}
+p{
+  font-family: 'Port Lligat Slab', serif;
+}
+body{
+  background-image: url("images/sky.jpg");
+}
+
+label{
+  font-family: 'Port Lligat Slab', serif;
+font-weight: bold;
+}
+h1{
+  color:#F7931E;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.btn{
+   background-color: #0071BC;
+   color:white;
+margin-bottom: 1rem;
+margin-left: 0px;
+}
+
+.btn:hover {
+  opacity:0.7;
+}
+
+
+
+.mainfooter{
+  background-color: #F7931E;
+  color:white;
+padding-top: 15px;
+padding-bottom: 15px;
+/*position: fixed; */
+   left: 0;
+   bottom: 0;
+  width:100%;
+  height: auto;
+   text-align: center;
+}
+
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+.team{
+  display: grid;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  grid-template-columns: 1fr;
+  grid-gap:1rem;
+}
+.team img{
+  border-radius: 50%;
+  text-align: center;
+}
+h1,h3,h4{
+  text-align: center;
+}
+@media only screen and (min-width: 650px){
+.team{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap:1rem;
+}
+}

@@ -1,0 +1,15 @@
+.prog{
+  display: grid;
+  grid-template-columns: 1fr ;
+
+}
+.review{
+  margin: 0rem;
+}
+@media only screen and (min-width: 600px){
+  .prog{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+}

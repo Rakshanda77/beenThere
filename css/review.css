@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Port+Lligat+Slab&display=swap');
+
+h1,h2, h3, h4, h5, h6, button, li{
+
+  font-family: 'Francois One', sans-serif;
+}
+p{
+  font-family: 'Port Lligat Slab', serif;
+}
+select, .mainfooter, .centered, textarea{
+    font-family: 'Francois One', sans-serif;
+}
+
+
+.mainfooter{
+  background-color: #F7931E;
+  color:white;
+padding-top: 15px;
+padding-bottom: 15px;
+position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+   margin-top: 40px;
+}
+body{
+  background-image: url("images/sky.jpg");
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.hlo{
+  display: grid;
+}
+
+.image{
+  display:none;
+}
+
+.btnr {
+  background-color:#3AB1E2;
+  color:white;
+  border-radius: 10px;
+  border: 2px solid #3AB1E2;
+  padding: 2px;
+margin-left: 5px;
+margin-right: 5px;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.btnr:hover {
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  /* background-color: #0071BC;
+     border: 2px solid #0071BC;*/
+}
+
+.btnr a{
+  color:white!important;
+  text-decoration: none;
+
+}
+
+h1{
+  color:#F7931E;
+}
+
+@media screen and (min-width: 650px){
+  .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:2rem;
+  }
+
+  .image{
+    display: grid;
+  }
+}
+
+}
+.mainfooter{
+  background-color: #F7931E;
+  color:white;
+padding-top: 15px;
+padding-bottom: 15px;
+/*position: fixed; */
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+}
